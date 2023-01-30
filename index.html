@@ -5,23 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </style>
 </head>
 <body>
-    <nav class="mx-auto mt-10 text-center">
-        <h1 class="mx-5 inline-block">
-            <span class="text-4xl font-semibold uppercase tracking-wide ">Maxime&nbsp;Neuville</span>
-            <br>
-            <div class="text-right">
-                <span class="text-2xl font-light">Architecte</span>
+    <header >
+        <div class="my-10 sm:my-20">
+        <div class=" mx-auto px-4 max-w-screen-lg flex flex-col sm:flex-row sm:justify-between">
+            <h1 class="self-center">
+                <div>
+                <span class="text-3xl font-semibold uppercase tracking-wide ">Maxime&nbsp;Neuville</span>
+                <div class="text-right">
+                    <span class="text-xl font-light">Architecte</span>
+                </div>
             </div>
-        </h1>
-        
-    
-    </nav>
-    <footer class="absolute inset-x-5 bottom-5 text-slate-600 font-light">
-            <a class="underline" href="mailto:neuville.maxime@outlook.fr">contact</a>
-            (&nbsp;neuville.maxime@outlook.fr&nbsp;)
+            </h1>
+           
+        </div>
+        </div>
+    </header>
+    <section class="mx-auto max-w-screen-lg">
+        <div class="mx-4">
+   <div class="flex flex-wrap flex-col sm:flex-row-reverse justify-between items-center">
+        <div class="my-10 basis-1/2 flex flex-row justify-center">
+                <address class="not-italic">
+                    <span class="font-semibold uppercase tracking-wide">Maxime&nbsp;Neuville</span> Architecte<br>
+                    2 cité de la boule d’Or 12 000 RODEZ<br>
+                    + 33 (0)6 32 17 39 42<br>
+                    <a href="mailto:neuville.maxime@outlook.fr" class="transition duration-300 linear text-pink-600 hover:underline">neuville.maxime@outlook.fr</a>
+                </address>
+        </div>
+        <div class="basis-1/2 flex flex-row justify-center">
+            <img class="shadow rounded" src="assets/home.jpeg"/>
+        </div>
+    </div>
+            
+
+    </div>
+</section>
+
+<footer class="pt-10 pb-4 text-xs">
+        <div class="max-w-screen-lg mx-auto">
+            <div class="sm:flex flex-col text-center sm:text-left sm:flex-row  sm:justify-between items-end mx-4">
+                <div class="">
+                    Inscrit à l’Ordre des Architectes Occitanie n°089902 - EI - Entrepreneur Individuel
+                </div>
+                <p class="mt-2 sm:mt-0 sm:text-right">
+                    © 2023
+                </p>
+            
+        </div>
+        </div>
     </footer>
 
 </body>
