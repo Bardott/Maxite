@@ -1,0 +1,3 @@
+[submodule "themes/gohugo-theme-subre"]
+	path = themes/gohugo-theme-subre
+	url = https://github.com/rmonin/gohugo-theme-subre.git
