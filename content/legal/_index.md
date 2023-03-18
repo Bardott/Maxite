@@ -1,6 +1,6 @@
-+++
-title = "Textes légaux"
-+++
+---
+title: "Textes légaux"
+---
 
 # Texte légaux
 

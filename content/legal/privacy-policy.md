@@ -1,5 +1,6 @@
 ---
 title: "Politique de confidentialité"
+description: "Version 1.0"
 order: 03
 ---
 

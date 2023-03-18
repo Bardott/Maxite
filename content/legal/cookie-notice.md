@@ -1,5 +1,6 @@
 ---
 title: "Déclaration des Cookie"
+description: ":cookie:"
 order: 04
 ---
 
