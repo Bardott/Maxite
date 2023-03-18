@@ -2,7 +2,7 @@
 Title = 'Accueil'
 [[resources]]
   name = 'header'
-  src = 'images/home.jpeg'
+  src = 'home.jpeg'
 +++
 
 texte
