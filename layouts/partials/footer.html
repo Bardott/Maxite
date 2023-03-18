@@ -1,0 +1,17 @@
+<div class="text-center text-xs md:text-left">
+  {{- if and (not .IsHome) false -}}
+  <div class="border-t md:border-none">
+    <div class="mx-auto mb-2 max-w-screen-lg px-4% md:mb-0">
+      <div class=" pb-4 pt-10 md:py-12">{{ partial "contact.html" . }}</div>
+      </div>
+    </div>
+  {{- end }}
+  <section class="legals md:bg-neutral-100 px-4% md:py-4">
+    {{- with site.GetPage "merci" }}
+    <a href="{{ .Permalink }}" class="float-left text-neutral-300 linear transition duration-300 hover:text-pink-600">.</a>
+    {{- end }}
+    <div class="mx-auto max-w-screen-lg">
+      {{ partial "footer/legals.html" . }}
+    </div>
+  </section>
+</div>
