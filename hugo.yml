@@ -1,0 +1,30 @@
+name: Deploy Hugo to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Set this to your default branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        # !!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!
+        # Il faut reconfigurer le dossier de sortie pour la publication des projets.
+        # Besoin également de voir pour effectuer les présentation de projets en MarkDown pour l'indépendance de Max sur la publication de son site.
+        publish_dir: ./public  # Set this to your Hugo's output directory
