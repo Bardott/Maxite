@@ -6,11 +6,11 @@
             after:absolute after:h-0.5 after:w-16 after:left-0 after:bottom-6
             after:linear after:transition after:duration-300
             hover:after:bg-pink-600">
-        <p class="whitespace-nowrap text-xl font-semibold uppercase">
+        <p class="whitespace-nowrap text-xl font-semibold uppercase tracking-wide">
           {{- with .Site.Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end -}}
         </p>
         {{ with .Site.Params.Subtitle -}}
-        <p class="text-right italic">{{ . }}</p>
+        <p class="text-right">{{ . }}</p>
         {{- end }}
       </a>
     </hgroup>
