@@ -12,18 +12,17 @@ title = 'Maxime Neuville'
     image = "img/author.jpg"
     name = 'Maxime Neuville'
     suffix = 'Architecte'
-    headline = "Nicht dein Durschnitts-Theme!"
+    # headline = "Une petite phrase d'accroche ou citation"
     address = "2 cité de la boule d'Or 12 000 RODEZ"
     phone = '+ 33 (0)6 32 17 39 42'
     email = 'neuville.maxime@outlook.fr'
-    bio = "Dies ist ein Beispiel für eine Autorenbiografie, und obwohl hier ein Stockfoto eines Hundes zu sehen ist, wurde dieser Artikel tatsächlich von einem Menschen verfasst. :dog:"
-    regirster = "Lorem Ipsum"
+    bio = "Inscrit à l'Ordre des Architectes Occitanie n°089902 - EI - Entrepreneur Individuel"
     links = [
-      { x-twitter = "https://twitter.com/" },
+      { instagram = "#" },
       { facebook = "https://facebook.com/" },
       { linkedin = "https://linkedin.com/" },
+      { x-twitter = "https://twitter.com/" },
       { youtube = "https://youtube.com/" },
-      { instagram = "#" },
     ]
   [[params.social]]
     name = "instagram"

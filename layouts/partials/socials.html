@@ -1,11 +1,13 @@
-{{ with .Site.Params.social -}}
+{{ with .Site.Params.author.links -}}
 <ul class="inline pl-2">
-  {{- range . }}
+{{ range . }}
+  {{- range $id, $url := . }}
   <li class="inline px-0.5 first:pl-0 last:pr-0">
-    <a href="{{ .url }}" class="linear transition duration-300 hover:text-pink-600">
-      <i class="fa-brands fa-{{ .name }}"></i>
+    <a href="{{ $url }}" class="linear transition duration-300 hover:text-pink-600">
+      <i class="fa-brands fa-{{ $id }}"></i>
     </a>
   </li>
-  {{- end }}
+  {{- end -}}
+{{- end }}
 </ul>
 {{- end -}}
