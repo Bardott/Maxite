@@ -1,18 +1,25 @@
 {{ define "main" -}}
-{{- $feature:= resources.GetMatch .Site.Author.image }}
-  <div
-    class="mx-auto
-    max-w-screen-lg items-center
-    justify-start px-4% md:flex md:flex-row">
-    <div class="flex justify-center text-center md:text-left md:order-last">
-      <div class="pb-10 text-sm">
-        {{ partial "contact.html" . }}
-      </div>
-    </div>
+{{- $feature:= resources.GetMatch .Site.Params.image }}
+<main class="mt-6">
+  <div class="mx-auto max-w-prose px-2
+  flex flex-col text-center md:text-left gap-4 justify-items-center
+  md:flex-row-reverse md:items-center ">
+    {{ partial "contact.html" . }}
     {{ with $feature }}
-    <div class="md:basis-1/2 max-w-sm md:max-w-none text-center md:mr-4%">
-        <img class="rounded shadow" src="{{ .RelPermalink }}" />
-      </div>
+    <div class="max-w-md mx-auto md:mx-0">
+      <img class="rounded shadow" src="{{ .RelPermalink }}" />
+    </div>
     {{ end }}
   </div>
+  {{ with .Content }}
+  <article class="mt-8 mx-auto px-2
+    prose
+    prose-pre:mx-auto
+    prose-pre:max-w-sm">
+    {{ . }}
+  </article>
+{{end}}
+  </main>
+
+
 {{- end }}

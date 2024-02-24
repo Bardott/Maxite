@@ -8,7 +8,7 @@
     {{- if .Site.Params.display_breabcrumbs -}}
     {{ partial "breadcrumbs.html" . }}
     {{- end -}}
-    <div class="grow flex flex-col justify-center mt-12">
+    <div class="grow flex flex-col justify-center">
       {{ block "main" . }}{{- end }}
     </div>
     {{- partial "footer.html" . -}}
