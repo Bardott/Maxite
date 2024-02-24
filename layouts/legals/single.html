@@ -1,0 +1,36 @@
+{{ define "main" -}}
+  <article
+    class="prose mx-auto
+    max-w-screen-lg px-2 text-justify
+    font-mono
+    tracking-normal
+    prose-headings:text-center
+    prose-headings:uppercase
+    prose-p:mx-auto
+    prose-p:max-w-prose
+    prose-a:font-normal
+    prose-a:linear
+    prose-a:transition
+    prose-a:duration-300
+    hover:prose-a:text-pink-600
+    prose-blockquote:mx-auto
+    prose-blockquote:max-w-prose
+    prose-figure:mx-auto
+    prose-figure:max-w-prose
+    prose-figcaption:mx-auto
+    prose-figcaption:max-w-prose
+    prose-pre:mx-auto
+    prose-pre:max-w-prose
+    prose-ol:mx-auto
+    prose-ol:max-w-prose
+    prose-ul:mx-auto
+    prose-ul:max-w-prose
+    prose-table:mx-auto
+    prose-table:max-w-prose
+    prose-img:mx-auto
+    prose-img:max-w-prose
+    prose-video:mx-auto
+    prose-video:max-w-prose">
+    {{ .Content }}
+  </article>
+{{- end }}

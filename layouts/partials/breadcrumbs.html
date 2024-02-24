@@ -1,0 +1,16 @@
+{{ if not .IsHome -}}
+<nav aria-label="Breadcrumbs" class="hidden sm:block">
+    <ol class="mx-auto px-2 max-w-screen-lg text-xs uppercase tracking-wide">
+    {{- range .Ancestors.Reverse }}
+      <li class="inline before:content-['/'] first:before:hidden">
+        <a href="{{ .Permalink }}" class="linear transition duration-300 hover:text-pink-600">
+          {{ if .IsHome }}{{ i18n "home" }}{{ else }}{{ .Title }}{{ end }}
+        </a>
+      </li>
+    {{- end }}
+      <li class="inline-block before:content-['/']" aria-current="page">
+        {{ .Title }}
+      </li>
+    </ol>
+</nav>
+{{- end }}

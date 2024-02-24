@@ -1,0 +1,59 @@
+{{- $title:= .Site.Title -}}
+{{- with .Site.Params.Subtitle }}{{ $title = print $title ", " . }}{{ end -}}
+{{- if not .IsHome }}{{ $title = print .Title " | " $title}}{{ end -}}
+{{- $description:= .Description -}}
+{{- if not $description -}}
+  {{- if .IsPage -}}
+    {{- $description = .Summary -}}
+  {{- else -}}
+    {{- with .Site.Params.description }}{{ $description = . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- $keywords:= .Site.Params.keywords -}}
+{{- with union .Site.Params.keywords .Params.keywords }}{{ $keywords = delimit . ", " }}{{ end -}}
+{{- $author:= .Site.Author.name -}}
+
+{{- /* Favicon */ -}}
+{{- $ico:= resources.Get "favicon/favicon.ico" -}}
+{{- $svg := resources.Get "favicon/favicon.svg" -}}
+{{- $touch := resources.Get "favicon/apple-touch-icon.png" -}}
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{$title}}</title> <!-- limiter la longueur du titre à environ 50 à 60 caractères (reste 20 à 30 )-->
+  {{- with $description }}
+  <meta name="description" content="{{ . }}"> <!-- La longueur recommandée est généralement d'environ 150 à 160 caractères. Avec une phrase qui CTA. -->
+  {{- end }}
+  {{- with $keywords }}
+  <meta name="keywords" content="{{ . }}"> <!-- Optionnel, 5 mots clés max. -->
+  {{- end }}
+  {{- with $author }}
+  <meta name="author" content="{{ . }}">
+  {{- end }}
+  {{ hugo.Generator }}
+  {{- if not hugo.IsProduction }}
+  <meta name="robots" content="noindex, nofollow">
+  {{- end }}
+  <meta name="format-detection" content="telephone=no">
+  {{- with .Site.Params.themeColor }}
+  <meta name="theme-color" content="{{ . }}">
+  {{- end }}
+  {{- with .Site.Params.themeColorLight }}
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="{{ . }}">
+  {{- end }}
+  {{- with .Site.Params.themeColorDark }}
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="{{ . }}">
+  {{- end }}
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>

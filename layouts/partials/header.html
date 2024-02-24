@@ -1,0 +1,41 @@
+<header>
+  <div class="mx-auto p-2 mb-2 max-w-screen-lg border-b text-center sm:flex sm:justify-between sm:items-end">
+    <hgroup class="mb-2 sm:mb-0">
+      <a href="{{ site.BaseURL }}"
+          class="inline-block relative
+            after:absolute after:h-0.5 after:w-16 after:left-0 after:bottom-6
+            after:linear after:transition after:duration-300
+            hover:after:bg-pink-600">
+        <p class="whitespace-nowrap text-xl font-semibold uppercase">
+          {{- with .Site.Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end -}}
+        </p>
+        {{ with .Site.Params.Subtitle -}}
+        <p class="text-right italic">{{ . }}</p>
+        {{- end }}
+      </a>
+    </hgroup>
+
+    <nav class="uppercase">
+      <ul class="inline">
+      {{- $current := . }}
+      {{- range .Site.Menus.main }}
+        {{- $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+        {{- $active = or $active ($current.HasMenuCurrent "main" .) }}
+        {{- $active = or $active (eq .Identifier $current.Type) }}
+        {{- $active = or $active (eq .Name $current.Title) }}
+        {{- $active = or $active (eq .URL $current.RelPermalink) }}
+        <li class="inline px-1 first:pl-0 last:pr-0">
+          <a href="{{ .URL }}"
+            class="relative
+                after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-10
+                after:linear after:transition after:duration-300
+                hover:after:bg-pink-600 {{- if $active }} after:bg-pink-600{{ end }}">
+            {{ .Name }}
+          </a>
+        </li>
+      {{- end }}
+      </ul>
+      {{ partial "socials.html" . }}
+    </nav>
+  </div>
+</header>

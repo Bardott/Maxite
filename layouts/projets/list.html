@@ -1,0 +1,24 @@
+{{- define "main" -}}
+  <div class="mx-auto max-w-prose px-4% text-center">
+    {{- .Content }}
+  </div>
+  <div class="max-w-screen-full mx-auto px-4%">
+    <div class="mx-4 flex shrink flex-wrap justify-center gap-8">
+      {{- $i:= 1 }}
+      {{- range (.Pages.ByParam "order") }}
+        <article class="text-center">
+          <a
+            href="{{ .Permalink }}"
+            class="grayscale transition duration-300 ease-in hover:text-pink-600 hover:grayscale-0">
+            <img class="rounded shadow" src="https://picsum.photos/320/320?random={{ $i }}" />
+            {{- $i = add $i 2 }}
+            <div>
+              MILLAU<br />
+              <span class="underline">{{ .LinkTitle }}</span>
+            </div>
+          </a>
+        </article>
+      {{- end }}
+    </div>
+  </div>
+{{- end }}

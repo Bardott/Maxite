@@ -1,0 +1,15 @@
+{{ define "main" -}}
+  <div class="prose mx-auto max-w-prose px-4% text-center">
+    {{ .Content }}
+<table class="">
+<tbody>
+{{ range (.Pages.ByParam "order") }}
+          <tr>
+<td><a class="font-normal" href="{{ .Permalink }}">{{ .LinkTitle }}</a></td>
+<td>{{ .Description | emojify }}</td>
+          </tr>
+        {{ end }}
+</tbody></table>
+
+  </div>
+{{- end }}

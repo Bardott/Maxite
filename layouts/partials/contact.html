@@ -1,0 +1,18 @@
+<address class="not-italic">
+  <span class="whitespace-nowrap font-semibold uppercase">{{ .Site.Params.Author.name }}</span>
+  {{- with .Site.Params.Author.suffix }} {{ . }}{{ end }}<br />
+  {{- with .Site.Params.Author.address }}
+    <span class="whitespace-nowrap">{{ . }}</span><br />
+  {{ end }}
+  {{- with .Site.Params.Author.phone }}
+    <span class="whitespace-nowrap">{{ . }}</span><br />
+  {{ end }}
+  {{ with .Site.Params.Author.email -}}
+    <a href="mailto:{{ . }}" class="text-pink-600 linear transition duration-300 hover:underline">
+      {{ . }}
+    </a>
+  {{- end }}
+</address>
+{{if not .IsHome }}
+{{- with .Site.Params.Author.bio }}<p>{{ . }}</p>{{ end -}}
+{{end}}
