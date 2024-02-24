@@ -1,21 +1,22 @@
-<footer class="mt-4">
-<div class="text-center text-xs sm:text-left">
-  <div class="border-t sm:border-none">
-    <div class="mx-auto mb-2 max-w-screen-lg px-4% md:mb-0">
-      <div class=" pb-4 pt-10 md:py-12">{{ partial "contact.html" . }}</div>
+<footer class="mt-2 pt-2 text-xs text-center md:text-left border-t md:border-none">
+    <aside class="mx-auto max-w-screen-lg px-2">
+      {{if not .IsHome }}
+      <div class="mb-2">
+        {{ partial "contact.html" . }}
       </div>
-    </div>
-  <section class="md:bg-neutral-100 p-2">
-    <div class="mx-auto max-w-screen-lg">
-      
+      {{ end }}
+      {{- with .Site.Params.Author.bio }}<p>{{ . }}</p>{{ end -}}
+    </aside>
+  <section class="py-2 md:bg-neutral-100 md:mt-2">
+    <div class="mx-auto max-w-screen-lg px-2">
       <div class="md:flex md:flex-col-reverse">
         {{- with .Site.GetPage "Section" "legals" }}
-        <nav class="py-4 md:py-0">
+        <nav class="py-2 md:py-0">
           <ul>
           {{- range where (.Site.RegularPages.ByParam "order") "Section" "legals" }}
-            <li class="inline-block
-              before:inline-block before:pr-3 before:text-neutral-300 before:content-['|']
-              after:pl-3 first:before:hidden first:before:pr-0 last:after:pl-0">
+            <li class="inline whitespace-nowrap
+              before:inline-block before:pr-1 before:text-neutral-300 before:content-['|']
+              after:pl-1 first:before:hidden first:before:pr-0 last:after:pl-0">
               <a href="{{ .Permalink }}" class="linear py-1 transition duration-300 hover:text-pink-600">
                 {{ .LinkTitle }}
               </a>
@@ -24,7 +25,7 @@
           </ul>
         </nav>
         {{- end }}
-        <p class="pt-2.5 pb-6 md:mb-1.5 md:py-0">
+        <p class="py-2 md:pt-0">
         {{- with .Site.Copyright }}
           {{- . }}
         {{- else }}
@@ -35,5 +36,4 @@
       </div>
     </div>
   </section>
-</div>
 </footer>
