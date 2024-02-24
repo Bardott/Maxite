@@ -4,7 +4,7 @@ languageCode = 'fr-FR'
 title = 'Maxime Neuville'
 
 [params]
-  image = "/images/foo.jpg"
+  image = "/images/home.jpg"
   subtitle = "Architecte"
   description = ""
   keywords = []
