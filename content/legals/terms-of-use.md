@@ -1,6 +1,7 @@
 ---
 title: "Conditions d'utilisation"
 order: 02
+draft: true
 ---
 
 # CONDITIONS D’UTILISATION

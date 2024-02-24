@@ -2,6 +2,7 @@
 title: "Déclaration des Cookies"
 description: ":cookie:"
 order: 04
+draft: false
 ---
 
 # Déclaration CONCERNANT LES COOKIES

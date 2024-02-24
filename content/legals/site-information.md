@@ -1,6 +1,7 @@
 ---
 title: "Mentions légales"
 order: 01
+draft: false
 ---
 
 # Mentions légales

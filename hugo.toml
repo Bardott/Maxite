@@ -6,28 +6,25 @@ title = 'Maxime Neuville'
 [params]
   image = "/images/home.jpg"
   subtitle = "Architecte"
-  description = ""
-  keywords = []
+  # description = "" # La longueur recommandée est généralement d'environ 150 à 160 caractères. Avec une phrase qui CTA.
+  keywords = [] # Optionnel, 5 mots clés max.
   display_breabcrumbs = true
   [params.author]
     image = "img/author.jpg"
     name = 'Maxime Neuville'
     suffix = 'Architecte'
-    # headline = "Une petite phrase d'accroche ou citation"
-    address = "2 cité de la boule d'Or 12 000 RODEZ"
+    headline = "Une petite phrase d'accroche ou citation ou crédo"
+    address = "2 cité de la boule d'Or 12000 RODEZ"
     phone = '+ 33 (0)6 32 17 39 42'
     email = 'neuville.maxime@outlook.fr'
     bio = "Inscrit à l'Ordre des Architectes Occitanie n°089902 - EI - Entrepreneur Individuel"
     links = [
       { instagram = "#" },
-      { facebook = "https://facebook.com/" },
-      { linkedin = "https://linkedin.com/" },
-      { x-twitter = "https://twitter.com/" },
-      { youtube = "https://youtube.com/" },
+    #   { facebook = "https://facebook.com/" },
+    #   { linkedin = "https://linkedin.com/" },
+    #   { x-twitter = "https://twitter.com/" },
+    #   { youtube = "https://youtube.com/" },
     ]
-  [[params.social]]
-    name = "instagram"
-    url = ""
 
 [menu]
   [[menu.main]]

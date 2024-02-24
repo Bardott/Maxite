@@ -1,0 +1,34 @@
+{{ define "main" -}}
+{{- $image := .Page.Resources.GetMatch .Params.image }}
+<main class="mt-6">
+  <div class="mx-auto max-w-prose prose px-2
+  flex flex-col gap-4 justify-items-center
+  md:flex-row md:items-center ">
+    {{ with $image }}
+    <div class="max-w-md mx-auto md:mx-0">
+      <img class="rounded shadow" src="{{ .RelPermalink }}" />
+    </div>
+    {{ end }}
+    {{- with .Site.Params.Author.headline }}
+      <blockquote>
+      <p>{{ . }}</p>
+      </blockquote>
+    {{ end }}
+  </div>
+  {{ with .Content }}
+  <article class="mt-8 mx-auto px-2
+    prose
+    prose-pre:mx-auto
+    prose-pre:max-w-sm
+    prose-a:font-normal
+    prose-a:linear
+    prose-a:transition
+    prose-a:duration-300
+    hover:prose-a:text-pink-600">
+    {{ . | emojify }}
+  </article>
+{{end}}
+  </main>
+
+
+{{- end }}
