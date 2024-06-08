@@ -28,7 +28,7 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       HUGO_VERSION: 0.123.2
     steps:
@@ -37,10 +37,10 @@ jobs:
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: "20"
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -49,11 +49,11 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json ]] && npm ci || true"
+      # - name: Install Node.js dependencies
+      #   run: "[[ -f package-lock.json ]] && npm ci || true"
 
-      - name: Build CSS
-        run: npm run build:prod:css
+      # - name: Build CSS
+      #   run: npm run build:prod:css
 
       - name: Build with Hugo
         env:
@@ -75,7 +75,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
