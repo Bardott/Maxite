@@ -7,7 +7,7 @@ type: "about"
 
 ## Démarche
 
-**Une architecture sobre et durable afin d’inscrire les espaces conçus dans le temps long.**
+**Une architecture sobre et durable afin d’inscrire les espaces conçu dans le temps long.**
 
 L’atelier d’architecture est fondé en 2021 après plusieurs années au sein de structures exerçant en milieu rural sur des projets variés de maîtrise d’oeuvre publique et privée (Lot-46 et Cantal – 15) et d’un cursus de formation enrichi d’une activité en parallèle en France (Clermont-Ferrand-63) et en Suisse (Genève – CH).
 
@@ -18,7 +18,7 @@ La majeure partie de l’activité se concentre sur des édifices existants, per
 En parallèle de son activité en son nom propre, Maxime Neuville est membre fondateur du collectif Nou(e)s regroupant quatre architectes et urbanistes pour réfléchir sur des sujets d’urbanisme et de territoire, dans des situations à la marge des grandes dynamiques métropolitaines. Ce travail permet de requestionner et d’enrichir sa pratique personnelle au contact d’autres praticiens et de nouveaux territoires d’études. Le collectif est lauréat d’Europan 16 – Villes Vivantes, concours thématique de projets suivi de processus de réalisation, sur le site de la ville d’Aulnat (63).
 
 ## Formations
-|  **Année** | **Intitulé** | **Descriptif** |  
+| **Année** | **Intitulé** | **Descriptif** |  
 |-----------|-----------|-----------|
 | **2024** | **MAR**  | Habilité Mon Accompagnateur Rénov' par l'ANAH |
 | **2024** | **PRO-CHANVRE** | Formé et habilité aux Règles professionnelles d’exécution d’ouvrages en béton et mortiers de chanvre par Construire en Chanvre |
