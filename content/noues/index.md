@@ -19,10 +19,10 @@ Noués, c’est aussi les liens nécessaires entre personnes autour d’un proje
 
 ## Liste de projets
 
-| **Année**       | **Projet**               | Infos                                                  | LIeu                  | Statut     |
-|-----------------|--------------------------|--------------------------------------------------------|-----------------------|------------|
-| **2023 - 2024** | **Hall et Cafet ENSACF** | Requalification du Hall et de la Cafétéria de l'ENSACF | Clermont-Ferrand (12) | *en cours* |
-| **2022**        | **PNR Trépail**          | Résidence d'architecture et plan guide                 | Trépail (52)          | *livré*    |
-| **2022 - 2024** | **Suites Europan 16**    | Etude urbaine pré-opérationnelle multi-sites           | Aulnat (63)           | *en cours* |
-| **2021**        | **Europan 16**           | Vi(e)abiliser, Installer les jalons d'une ville vivant | Aulnat (63)           | *lauréat*  |
+| **Année**      | **Projet**               | Infos                                                  | LIeu                  | Statut     |
+|----------------|--------------------------|--------------------------------------------------------|-----------------------|------------|
+| **2023  2024** | **Hall et Cafet ENSACF** | Requalification du Hall et de la Cafétéria de l'ENSACF | Clermont-Ferrand (12) | *en cours* |
+| **2022**       | **PNR Trépail**          | Résidence d'architecture et plan guide                 | Trépail (52)          | *livré*    |
+| **2022/24**    | **Suites Europan 16**    | Etude urbaine pré-opérationnelle multi-sites           | Aulnat (63)           | *en cours* |
+| **2021**       | **Europan 16**           | Vi(e)abiliser, Installer les jalons d'une ville vivant | Aulnat (63)           | *lauréat*  |
 
