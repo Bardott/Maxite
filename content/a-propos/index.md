@@ -18,15 +18,10 @@ La majeure partie de l’activité se concentre sur des édifices existants, per
 En parallèle de son activité en son nom propre, Maxime Neuville est membre fondateur du collectif Nou(e)s regroupant quatre architectes et urbanistes pour réfléchir sur des sujets d’urbanisme et de territoire, dans des situations à la marge des grandes dynamiques métropolitaines. Ce travail permet de requestionner et d’enrichir sa pratique personnelle au contact d’autres praticiens et de nouveaux territoires d’études. Le collectif est lauréat d’Europan 16 – Villes Vivantes, concours thématique de projets suivi de processus de réalisation, sur le site de la ville d’Aulnat (63).
 
 ## Formations
-|  **Année**  |  **Intitulé**  | **Descriptif**  |
-| ---------------- | ---------------- | -------------— |
-| **2024** | **MAR** | Habilité Mon Accompagnateur Rénov' par l'ANAH
-| **2024** | **PRO-CHANVRE** | Formé et habilité aux Règles professionnelles d’exécution d’ouvrages en béton et mortiers de chanvre par Construire en Chanvre
-| **2023** | **PRO-PAILLE** | Formé et habilité aux Règles professionnelles de la construction paille par le Réseau Français de la Construction Paille (RFCP)
-| **2023** | **Auditeur énergétique – DynaMOE 1** | Rénovation énergétique des maisons individuelles
-| **2022-2023** | **SANA** | Incubateur de développement de jeunes agences en lien avec la ruralité, les villes moyennes et la transition écologique
-
-| En-tête 1 | En-tête 2 |  
-|-----------|-----------|  
-| Donnée 1  | Donnée 2  |  
-| Donnée 3  | Donnée 4  |
+|  **Année** | **Intitulé** | **Descriptif** |  
+|-----------|-----------|-----------|
+| **2024** | **MAR**  | Habilité Mon Accompagnateur Rénov' par l'ANAH |
+| **2024** | **PRO-CHANVRE** | Formé et habilité aux Règles professionnelles d’exécution d’ouvrages en béton et mortiers de chanvre par Construire en Chanvre |
+| **2023** | **PRO-PAILLE** | Formé et habilité aux Règles professionnelles de la construction paille par le Réseau Français de la Construction Paille (RFCP) |
+| **2023** | **Auditeur énergétique – DynaMOE 1** | Rénovation énergétique des maisons individuelles |
+| **2022-2023** | **SANA** | Incubateur de développement de jeunes agences en lien avec la ruralité, les villes moyennes et la transition écologique |
