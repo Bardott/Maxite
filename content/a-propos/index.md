@@ -1,47 +1,27 @@
 ---
 Title: "À propos"
-description: "Hugo, the world's fastest framework for building websites"
-image: "about.jpeg"
+description: "MAXIME NEUVILLE Architecte - A propos"
+image: "MN.jpeg"
 type: "about"
 ---
 
-## Prix
+## Démarche
 
-|      | <!-- -->   | <!-- -->    | <!-- -->                         |
-| ---- | ---------- | ----------- | -------------------------------- |
-| 2001 | Europan 16 | AULNAT (63) | [Runner-up](https://example.com) |
-| 2002 | Europan 16 | AULNAT (63) | [Runner-up](https://example.com) |
-| 2003 | Europan 16 | AULNAT (63) | [Runner-up](https://example.com) |
-| 2004 | Europan 16 | AULNAT (63) | [Runner-up](https://example.com) |
+**Une architecture sobre et durable afin d’inscrire les espaces conçus dans le temps long.**
 
-## Publications
+L’atelier d’architecture est fondé en 2021 après plusieurs années au sein de structures exerçant en milieu rural sur des projets variés de maîtrise d’oeuvre publique et privée (Lot-46 et Cantal – 15) et d’un cursus de formation enrichi d’une activité en parallèle en France (Clermont-Ferrand-63) et en Suisse (Genève – CH).
 
-1. R. Ducournau.\
-  Spécialisation et sous-typage : thème et variations.\
-  Technique et Science Informatique, 21(10):1305-1342, Hermès, 2002.\
-  ([.pdf file](https://example.com))
+Maxime Neuville exerce dans le Massif Central, rayonnant depuis Rodez dans l’Aveyron (12). À travers ses projets, il défend une architecture s’inscrivant dans la continuité des savoir-faire et des spécificités du territoire sur lequel l’homme s’implante. Une architecture engagée répondant aux enjeux environnementaux et écologiques actuels à travers l’économie de moyens et l’emploi de techniques constructives vertueuses. Une architecture sobre et durable afin de permettre aux espaces conçus de continuer de vivre et d’évoluer dans le temps.
 
-1. R. Ducournau and M. Habib.\
-  La multiplicité de l'héritage multiple.\
-  Technique et Science Informatiques, 8(1):41--62, 1989.
+La majeure partie de l’activité se concentre sur des édifices existants, persuadé que l’enjeu du 21ème siècle réside dans le fait de prolonger et d’adapter l’héritage bâti transmis par les générations précédentes. Cette posture se décline également lors de l’intervention sur des espaces publics ou la construction de nouveaux édifices, en portant une attention particulière au déjà-là au sein duquel le projet doit s’inscrire de manière humble.
 
-- O. Sallenave, R. Ducournau.\
-  Efficient Compilation of .NET Programs for Embedded Systems\
-  Journal of Object Technology, 2012, 27p\
-  doi: [10.5381/jot.2012.11.3.a5](https://example.com)
+En parallèle de son activité en son nom propre, Maxime Neuville est membre fondateur du collectif Nou(e)s regroupant quatre architectes et urbanistes pour réfléchir sur des sujets d’urbanisme et de territoire, dans des situations à la marge des grandes dynamiques métropolitaines. Ce travail permet de requestionner et d’enrichir sa pratique personnelle au contact d’autres praticiens et de nouveaux territoires d’études. Le collectif est lauréat d’Europan 16 – Villes Vivantes, concours thématique de projets suivi de processus de réalisation, sur le site de la ville d’Aulnat (63).
 
-## Parcours
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare pellentesque sagittis. Curabitur laoreet quam quis nibh ultricies convallis. Nullam sit amet tortor in enim consequat condimentum sit amet sed nulla. Morbi non est pharetra, ornare leo aliquet, egestas ligula. Cras vitae mauris sed mi volutpat congue. Aenean eleifend tortor eget risus scelerisque lobortis. Curabitur est dolor, ornare quis convallis eu, fermentum in justo. Etiam nec turpis id mauris tempus gravida elementum ut quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut dictum eget elit sed pulvinar. Nam ac varius ex. Suspendisse cursus enim sodales blandit venenatis. Ut sit amet congue mauris, sed volutpat quam. Quisque aliquam nulla at tincidunt imperdiet. Proin tempor, quam nec sagittis faucibus, enim risus pretium felis, et dictum orci ante vitae tellus.
-
-:page_facing_up: [Télécharger mon CV](curriculum.pdf)
-
-## Liste de projets
-
-|      |  <!-- -->      | <!-- -->         | <!-- -->         | Status       |
-| ---- | -------------- | ---------------- | -----------------|------------- |
-| 2001 | **M12**        | La petite phrase | Millau (12)      | *livré*      |
-| 2002 | **Europan 16** | Ma belle cabane  | Montpellier (34) | *en cours*   |
-| 2003 | Europan 16     |                  | AULNAT (63)      | *sans suite* |
-| 2004 | Europan 16     |                  | AULNAT (63)      | *livré*      |
-
+## Formations
+|  <**Année**>  |  <**Intitulé**>  |  <**Descriptif**>  |
+| ---------------- | ---------------- | -------------— |
+| **2024** | **MAR** | Habilité Mon Accompagnateur Rénov' par l'ANAH
+| **2024** | **PRO-CHANVRE** | Formé et habilité aux Règles professionnelles d’exécution d’ouvrages en béton et mortiers de chanvre par Construire en Chanvre
+| **2023** | **PRO-PAILLE** | Formé et habilité aux Règles professionnelles de la construction paille par le Réseau Français de la Construction Paille (RFCP)
+| **2023** | **Auditeur énergétique – DynaMOE 1** | Rénovation énergétique des maisons individuelles
+| **2022-2023** | **SANA** | Incubateur de développement de jeunes agences en lien avec la ruralité, les villes moyennes et la transition écologique
