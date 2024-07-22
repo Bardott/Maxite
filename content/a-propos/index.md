@@ -1,7 +1,7 @@
 ---
 Title: "À propos"
 description: "MAXIME NEUVILLE Architecte - A propos"
-image: "MN.jpeg"
+image: "MNa_Photo.jpg"
 type: "about"
 ---
 
