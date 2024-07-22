@@ -4,7 +4,6 @@ description: "MAXIME NEUVILLE Architecte - A propos"
 image: "MNa_Photo.jpg"
 type: "about"
 ---
-
 ## Démarche
 
 **Une architecture sobre et durable afin d’inscrire les espaces conçu dans le temps long.**
@@ -20,7 +19,7 @@ En parallèle de son activité en son nom propre, Maxime Neuville est membre fon
 ## Formations
 | **Année** | **Intitulé** | **Descriptif** |  
 |-----------|-----------|-----------|
-| **2024** | **MAR**  | Habilité Mon Accompagnateur Rénov' par l'ANAH |
+| **2024** | **MAR** | Habilité Mon Accompagnateur Rénov' par l'ANAH |
 | **2024** | **PRO-CHANVRE** | Formé et habilité aux Règles professionnelles d’exécution d’ouvrages en béton et mortiers de chanvre par Construire en Chanvre |
 | **2023** | **PRO-PAILLE** | Formé et habilité aux Règles professionnelles de la construction paille par le Réseau Français de la Construction Paille (RFCP) |
 | **2023** | **Auditeur énergétique – DynaMOE 1** | Rénovation énergétique des maisons individuelles |
