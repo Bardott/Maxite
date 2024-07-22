@@ -26,11 +26,11 @@ title = 'Maxime Neuville'
     # ]
 
 [menu]
-   [[menu.main]]
-     identifier = "projets"
-     name = "Projets"
-     url = "/projets"
-     weight = 10
+   # [[menu.main]]
+   #   identifier = "projets"
+   #   name = "Projets"
+   #   url = "/projets"
+   #   weight = 10
    [[menu.main]]
      identifier = "a-propos"
      name = "À propos"
