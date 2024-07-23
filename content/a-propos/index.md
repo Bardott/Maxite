@@ -6,7 +6,7 @@ type: "about"
 ---
 ## Démarche
 
-**Une architecture sobre et durable afin d’inscrire les espaces conçu dans le temps long.**
+**Une architecture sobre et durable afin d’inscrire les espaces conçus dans le temps long.**
 
 L’atelier d’architecture est fondé en 2021 après plusieurs années au sein de structures exerçant en milieu rural sur des projets variés de maîtrise d’oeuvre publique et privée (Lot-46 et Cantal – 15) et d’un cursus de formation enrichi d’une activité en parallèle en France (Clermont-Ferrand-63) et en Suisse (Genève – CH).
 
