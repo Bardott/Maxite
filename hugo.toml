@@ -36,8 +36,8 @@ title = 'Maxime Neuville'
      name = "À propos"
      url = "/a-propos"
      weight = 20
-   [[menu.main]]
-     identifier = "noues"
-     name = "Nou(e)s"
-     url = "/noues"
-     weight = 30
+   # [[menu.main]]
+    #  identifier = "noues"
+    #  name = "Nou(e)s"
+    #  url = "/noues"
+    #  weight = 30
