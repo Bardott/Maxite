@@ -1,6 +1,5 @@
 {{- define "main" -}}
   <div class="mx-auto max-w-prose px-4% text-center">
-    template projets
     {{- .Content }}
   </div>
   <div class="max-w-screen-full mx-auto px-4%">
@@ -14,7 +13,6 @@
             <img class="rounded shadow" src="https://picsum.photos/320/320?random={{ $i }}" />
             {{- $i = add $i 2 }}
             <div>
-              MILLAU<br />
               <span class="underline">{{ .LinkTitle }}</span>
             </div>
           </a>
