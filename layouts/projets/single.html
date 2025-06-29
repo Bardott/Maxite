@@ -1,0 +1,17 @@
+{{ define "main" -}}
+{{- $image := .Page.Resources.GetMatch .Params.image }}
+<div class="max-w-screen-full mx-auto items-center px-4% md:flex">
+  <div class="flex grow basis-1/2 justify-center">
+    <!-- place carrousel here -->
+    <!-- {{- with $image }}
+      <img class="mx-auto rounded shadow" src="{{ .RelPermalink }}" /><br/>
+    {{- end }} -->
+    <div class="pb-10 pt-6
+        prose
+        prose-pre:mx-auto
+        prose-pre:max-w-sm">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{- end }}
