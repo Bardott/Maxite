@@ -3,7 +3,7 @@
   {{- with site.LanguageCode | default site.Language.Lang }} lang="{{ . }}"{{ end -}}
   {{- if ne .Site.Params.rtl nil }}dir="{{ with .Site.Params.rtl }}rtl{{ else }}ltr{{ end }}"{{ end }}>
   {{ partial "head.html" . }}
-  <body class="m-0 min-h-screen flex flex-col font-light tracking-wide text-neutral-900 selection:bg-pink-600">
+  <body class="m-0 min-h-screen flex flex-col font-light tracking-wide text-neutral-900">
     {{ partial "header.html" . }}
     {{- if .Site.Params.display_breabcrumbs -}}
     {{ partial "breadcrumbs.html" . }}
